@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage{graphicx}
+\usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{picture}
@@ -91,11 +91,63 @@ the know common frequency in the underlying language.}
 
 \section{1.13}
 
+\subsection{(a)}
+
+Since the online game needs to communicate with the server and other player about their actions, progress, user name and account
+information should be transferred as well as the game data, if these data is encrypted, then the attacker will incept these data,
+analyse the field of data, and then get to know the user accounts information.
+
+\subsection{(b)}
+
+Yes, it will help to secure the account. Because when using the RSA token in the online game, the account information is encrypted,
+the attacker can not get the plain account information from the data packets.
+And this RSA token machanism is protected by the online game, they need to provide the options for better security. On their side,
+a decrypted procedure is needed to verify the user's account information for management.
+Still, this way is not 100\% percent safe, but it will reduce the risk significantly.
 
 \section{1.29}
 
+\subsection{(a)}
+
+First, they use the technique called \textbf{Social Engineering}, they pretend to be sales person and government authority(\textit{Physical
+Impersonation}), and then \textbf{Phishing} the customers, to get their email address.
+
+Then use the \textbf{Spoofing} technique to impersonate known employees to other employees, this will allow them to send emails to victims
+acting as normal employees without knowing the passwords of their disguised users.
+
+They also used \textbf{Spam emails} with \textbf{Trojan Horse} that will get access to the internal network, they use the \textbf{Backdoors}
+of the OWA system and security protocols, so that bypassing the firewall is possible and their attack is effective.
+
+
+\subsection{(b)}
+
+First, check the full email address and don't only true the display name. Some disguised emails have the host name that doesn't belong to the
+authorized companies and governments, but the display is like some very formal organizations, check the full details in case we are cheated.
+
+Second, don't click the directed link or strange url in this email. As they may contain Trojans or spyware, we can just take a look but don't
+open them.
+
+Third, watch out for some spelling errors in the emails, big companies and governments seldom send misspelled emails.
+
+At last, watch out for asking bank account information, personal information, or other urgent or threatening information. They will use these
+information to do harmful things and steal your money. Keep an on the body and content of these emails, if necessary, make a phone call that is
+verified by the officials, rather than the phone number or address in the emails. Also keep an eye on the attached and executed programs in the
+emails.
 
 \section{1.37}
+
+The new security policy should forbid the placing of computers behind the firewall, and place ALL the computers under the protect of the firewall.
+
+Furthermore, new monitoring mechanism should be built to watch the behaviour of network and other security benchmark. Once there is an abnormal
+activity, it should be easy to locate the area of problem, and them minimize the search boarder of suspicious computers. In this way, it would
+be easy to localize the compromised computer.
+
+And other isolation network should be built so that if there is some victims, the system will shut down the communication between these machines
+and other connected machine. In this way, the transmission of virus can be slowed down and the affected machine can be minimized.
+
+At last, make sure every computer has install the anti-virus software, even some old computers, this will largely reduce the risk of infecting other computers. Scan and check the computer periodically to avoid infections.
+
+
 
 
 \end{document}
